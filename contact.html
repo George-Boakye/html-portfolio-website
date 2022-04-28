@@ -3,43 +3,64 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="contact.css" />
     <title>Contact</title>
   </head>
   <body>
-    <h2>Contact</h2>
-    <p>Let me here from you!</p>
-    <form action="">
-      <label for="name">Name:</label>
-      <input type="text" placeholder="Enter your name" required />
-      <br />
-      <br />
-      <label for="mail">Email:</label>
-      <input type="email" name="mail" id="mail" placeholder="Email address" />
-      <br />
-      <br />
-      <label for="message">Message:</label>
-      <br />
-      <br />
-      <textarea
-        name="message"
-        id="message"
-        cols="30"
-        rows="10"
-        placeholder="Enter your message here"
-      ></textarea>
-      <br />
-      <br />
-      <input type="submit" value="send" />
-    </form>
-    <br />
-    <div id="contact">
+    <header>
+      <div class="logo">
+        <span>gb</span>
+      </div>
+      <nav>
+        <span><a href="index.html">Home</a></span>
+        <span><a href="projects.html">Projects</a></span>
+        <span><a href="contact.html">Contact</a></span>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Let me here from you!</h2>
+        <br />
+        <form action="">
+          <label for="name">Name:</label>
+          <input type="text" placeholder="Enter your name" required />
+          <br />
+          <br />
+          <label for="mail">Email:</label>
+          <input
+            type="email"
+            name="mail"
+            id="mail"
+            placeholder="Email address"
+          />
+          <br />
+          <br />
+          <label for="message">Message:</label>
+          <br />
+          <br />
+          <textarea
+            name="message"
+            id="message"
+            cols="50"
+            rows="10"
+            placeholder="Enter your message here"
+          ></textarea>
+          <br />
+          <br />
+          <input class="button" type="submit" value="send" />
+        </form>
+        <br />
+        <div id="contact"></div>
+      </section>
+    </main>
+    <footer>
+      <span> Made with ❤️ in Ghana </span>
       <p>
         <strong>email</strong>: boakye@gmail.com | <strong>phone</strong>:
         917-555-1098 | <strong>address</strong>: 371 284th St, New York, NY,
         10001
       </p>
-    </div>
-
-    <span>Go <a href="index.html">back</a></span>
+      <p>&#x24B8; 2022 codewarrior.com</p>
+    </footer>
   </body>
 </html>
