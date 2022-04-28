@@ -3,43 +3,63 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="projects.css" />
     <title>Projects</title>
   </head>
   <body>
-    <h1>Projects</h1>
-    <br />
-    <ol>
-      <li><h2>Pod landing page</h2></li>
-      <img
-        src="./images/pod-ss.png"
-        height="200"
-        alt="A picture of a podcast page"
-      />
+    <header>
+      <div class="logo">
+        <span>gb</span>
+      </div>
+      <nav>
+        <span><a href="index.html">Home</a></span>
+        <span><a href="projects.html">Projects</a></span>
+        <span><a href="contact.html">Contact</a></span>
+      </nav>
+    </header>
+    <main>
+      <h1>Projects</h1>
+      <br />
+      <section class="first-projct">
+        <h2>Pod landing page</h2>
+        <img
+          src="./images/pod-ss.png"
+          height="200"
+          alt="A picture of a podcast page"
+        />
+      </section>
       <br />
       <br />
-      <label for="rate">Ratings:</label>
-      <input type="number" name="rate" min="0" max="10" placeholder="7" />
-      <li><h2>NFT preview card</h2></li>
-      <img
-        src="./images/Screenshot (70).png"
-        height="200"
-        alt=" NFT preview card"
-      />
+      <section class="second-project">
+        <h2>NFT preview card</h2>
+        <figure>
+          <img
+            src="./images/Screenshot (70).png"
+            height="200"
+            alt=" NFT preview card"
+          />
+        </figure>
+      </section>
       <br />
       <br />
-      <label for="rate">Ratings:</label>
-      <input type="number" name="rate" min="0" max="10" placeholder="8" />
-    </ol>
-    <br>
-    <form action="">
-      <label for="feedback">Leave some feedback on these Projects:</label>
-      <br>
-      <br>
-      <textarea name="feedback" id="feedback" cols="100" rows="10"></textarea>
-      <br>
-      <input type="button" value="Post feedback">
-    </form>
-    <br />
-    <button><a href="index.html"> Back</a></button>
+      <form action="">
+        <label for="feedback">Leave some feedback on these Projects:</label>
+        <br />
+        <br />
+        <textarea name="feedback" id="feedback" cols="100" rows="10"></textarea>
+        <br />
+        <br>
+        <input class="button" type="button" value="Post feedback" />
+      </form>
+    </main>
+    <footer>
+      <span> Made with ❤️ in Ghana </span>
+      <p>
+        <strong>email</strong>: boakye@gmail.com | <strong>phone</strong>:
+        917-555-1098 | <strong>address</strong>: 371 284th St, New York, NY,
+        10001
+      </p>
+      <p>&#x24B8; 2022 codewarrior.com</p>
+    </footer>
   </body>
 </html>
